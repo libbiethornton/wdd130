@@ -39,7 +39,7 @@ body {
 }
 
 header {
-    background-color: #79C6D8;
+    background-color: #79C6D899;
     display: grid;
     grid-template-columns: 150px auto;
 }
