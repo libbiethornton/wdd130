@@ -1,0 +1,46 @@
+* {
+box-sizing: border-box;
+}
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.header-content {
+    display: grid;
+    grid-template-columns: 150px 1fr 25px;
+    column-gap: 1em;
+}
+
+.header-content h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.header-content p.phone-number {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.product button {
+    width: 100%;
+    padding: 1em;
+}

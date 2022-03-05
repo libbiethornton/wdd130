@@ -7,9 +7,10 @@
 
 nav a {
     text-align: center;
-    color: #FCE273;
+    color: #0B4066;
     text-decoration: none;
     padding: 35px;
+    font-weight: bold;
 }
 
 nav {
@@ -233,6 +234,36 @@ main section img {
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #0B4066;
+}
+
+.questions h3 {
+    color: #79C6D8;
+
+}
+
+.questions p {
+    color: #0B4066;
+}
+.title {
+    color: #FCE273;
+    font-family: "Staatliches", Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.photo-text {
+    color: #0B4066;
+}
+
+.page2 {
+margin: 3em;
+}
+
+.riverraft {
+    float: right;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 2em;
 }
 
 @media screen and (max-width: 900px) {
