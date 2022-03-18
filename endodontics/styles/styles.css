@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Slab&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Poppins", Helvetica, sans-serif;
+    color: #A9D6E5;
+}
+
+.logo {
+    width: 250px;
+}
+
+#endo_link {
+    padding-top: 5px;
+    justify-self: center;
+}
+
+nav a {
+    text-align: center;
+    padding: 80px;
+    text-decoration: none;
+    font-family: "Poppins", Helvetica, sans-serif;
+    color: #013A63;
+    font-size: 1.25em;
+}
+
+nav a:hover {
+    background-color: #A9D6E599;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body {
+    font-family: "Roboto Slab", Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 300px auto;
+    background-color: #013A6366;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: .5fr 1fr 1fr .5fr;
+    grid-template-rows: 100px 1fr 1fr 50px;
+    justify-items: center;
+}
+
+.plan {
+    grid-row: 4/5;
+}
+
+.home {
+    grid-column: 1/5;
+}
+
+.bio {
+    padding: 15px;
+    grid-column: 2/4;
+}
+
+.family {
+    grid-column: 3/4;
+    width: 300px;
+}
+
+.mt {
+    grid-area: 2/2/3/3;
+    width: 300px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins", Helvetica, sans-serif;
+    background-color: #013A63;
+    color: white;
+    align-items: center;
+}
+
+.foot-text {
+    font-weight: bold;
+}

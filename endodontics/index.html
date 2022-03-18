@@ -5,19 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thornton Endodontics</title>
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
-        <img src="logo" alt="logo">
-        <a href="index.html">Home</a>
-        <a href="rootcanal.html">Root Canal</a>
-        <a href="faq.html">FAQ</a>
+        <a id="endo_link" href="index.html">
+            <img src="images/endo_logo.png" alt="logo" class="logo">
+        </a>    
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="rootcanal.html">Root Canal</a>
+            <a href="faq.html">FAQ</a>
+        </nav>
     </header>
     <main>
-        <h1>About Dr. Thornton</h1>
-        <img src="images/fampic.jpg" alt="family photo">
-        <img src="images/country.jpg" alt="country landscape">
-        <p>Dr. Justin Thornton was raised in Lima, Montana. While attending college in Idaho, he married his wife,
+        <div class="about">
+            <h1 class="home">About Dr. Thornton</h1>
+            <img src="images/family_pic.jpg" alt="family photo" class="family">
+            <img src="images/country.jpg" alt="country landscape" class="mt">
+            <p class="bio">Dr. Justin Thornton was raised in Lima, Montana. While attending college in Idaho, he married his wife,
             Janet Jenson. They moved to Virginia where he attended dental school at Virginia Commonwealth University.
             Upon graduating in 1996, he was accepted into the 2-year endodontic residency program at the VCU School of
             Dentistry. While completing the residency program, he was trained in the latest endodontic techniques
@@ -25,12 +31,21 @@
             graduating in 1998, he and his wife moved to Cache Valley where he opened up a practice limited to
             endodontics near the hospital. Together they are the parents of 4 children and 2 grandchildren. Justin
             enjoys spending time in Montana, golfing, and attending Utah State Aggie games.</p>
-            <a href="site-plan.html">Site Plan</a>
+            <a href="site-plan.html" class="plan">Link to Site Plan</a>
+        </div>        
     </main>
     <footer>
-        <p>Copyright 2022</p>
-        <p>MTR 8-4 F 8-12</p>
-        <p>550 E 1400 N STE F, Logan, UT 84341</p>
+        <p>Copyright &copy; 2022 Libbie Thornton</p>
+        <div>
+            <p class="foot-text">Hours</p>
+            <p>Mon, Tue & Thur: 8 am - 4 pm</p>
+            <p>Fri: 8 am - 12 pm</p>
+        </div>
+        <div>
+            <p class="foot-text">Location</p>
+            <p>550 E 1400 N STE F</p>
+            <p>Logan, UT 84341</p>
+        </div>
     </footer>
 </body>
 </html>
