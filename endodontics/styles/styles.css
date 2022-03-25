@@ -42,6 +42,7 @@ body {
     padding: 0;
     margin: 0;
     text-align: center;
+    color: #013A63;
 }
 
 header {
@@ -75,10 +76,38 @@ header {
     width: 300px;
 }
 
-.mt {
+.portrait {
     grid-area: 2/2/3/3;
     width: 300px;
 }
+
+.rootcanal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.what {
+    margin-left: 100px;
+    align-items: center;
+    align-content: center;
+}
+
+.micro {
+    grid-column: 2/3;
+}
+
+.steps {
+    text-align: left;
+}
+
+h2 {
+    color: #2A6F97;
+}
+
+
 
 footer {
     display: flex;
