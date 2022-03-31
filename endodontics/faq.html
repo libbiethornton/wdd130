@@ -13,7 +13,7 @@
     <header>
         <a id="endo_link" href="index.html">
             <img src="images/endo_logo.png" alt="logo" class="logo">
-        </a>    
+        </a>
         <nav>
             <a href="index.html">Home</a>
             <a href="rootcanal.html">Root Canal</a>
@@ -21,19 +21,37 @@
         </nav>
     </header>
     <main>
-        <h1>FAQ's</h1>
-        <h3>How do I know if I need a root canal?</h3>
-        <p>Most insurances accepted. Please contact our office and we will help you
-            We’re happy to work with patients that need to make financial payments.
-            Please call our office with questions or to schedule an appointment
-            Hours: mTTH8-4 f 8-12</p>
-        <p>Serving the endodontic needs of patients in northern Utah since 1998.
-            Providing root canal services in the northern Utah area since 1998.</p>
-        <img src="images/smile.jpg" alt="smile">
-        <a href="site-plan.html">Site Plan</a>
+        <div class="faq">
+            <h1>FAQ's</h1>
+            <h3 class="insurance">What insurance is accepted?</h3>
+            <p class="insurancepar">We submit claims to most insurance companies. Please call our office to see if we are an in-network
+                provider.
+                (435)755-6955</p>
+            <h3 class="finance">Is there any financing options available?</h3>
+            <p class="financepar">Our office does provide financing options. We give a discount to our patients who do not have insurance.
+                We
+                also give a 5% discount to our patients who pay their account in full on the day of service. We offer
+                no-interest payment plans.</p>
+            <img src="images/rsz_staff.jpg" alt="staff" class="staff">
+            <p class="slogan">Serving the endodontic needs of patients in northern Utah since 1998.</p>
+        </div>
+        <div class="form">
+            <h1 class="question-title">Have more questions?</h1>
+            <form action="thankyou.html">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" placeholder="your name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="bob@example.com">
+                <label for="phone">Phone Number</label>
+                <input type="text" name="phone" id="phone" placeholder="000-000-0000">
+                <textarea name="question" id="question" placeholder="Type your question here..."></textarea>
+                <button type="submit">Submit your question</button>
+            </form>
+        </div>    
     </main>
     <footer>
         <p>Copyright &copy; 2022 Libbie Thornton</p>
+        <a href="site-plan.html" class="plan">Site Plan</a>
         <div>
             <p class="foot-text">Hours</p>
             <p>Mon, Tue & Thur: 8 am - 4 pm</p>
